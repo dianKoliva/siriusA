@@ -1,0 +1,63 @@
+/* styles.css */
+
+@keyframes underline {
+    to {
+      width: 100%;
+    }
+  }
+  
+  .nav-link {
+    position: relative;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+  
+    &:hover {
+      color: #F5AB12;
+    }
+  
+    &:before {
+      content: '';
+      position: absolute;
+      width: 0;
+      height: 2px;
+      bottom: -6px;
+      left: 0;
+      background-color: #F5AB12;
+      transition: width 0.3s ease;
+    }
+  
+    &:hover:before {
+      animation: underline 0.3s forwards;
+    }
+  }
+  
+  /* styles.css */
+
+.grayscale {
+  filter: grayscale(100%);
+}
+
+/* YourComponent.css */
+
+@keyframes typingDeleting {
+  0% {
+    width: 0;
+  }
+  40% {
+    width: 100%;
+  }
+  60% {
+    width: 100%;
+  }
+  100% {
+    width: 0;
+  }
+}
+
+.typing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typingDeleting 6s steps(50, end) infinite;
+}
