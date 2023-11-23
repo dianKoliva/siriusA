@@ -24,11 +24,11 @@ const AboutPage = () => {
         <p className='mt-4 text-[#676666] leading-8'>Our mission is to champion economic independence, honor cultural heritage, and promote gender equality by empowering women in the African handmade jewelry industry as both skilled artisans and successful business owners.</p>
       </div>
       <div className=''>
-        <p className=' pl-28  text-4xl  text-center px-20 font-bold mt-8'>
+        {/* <p className=' pl-28  text-4xl  text-center px-20 font-bold mt-8'>
           Our Prototype 
         </p>
      
-
+ */}
 
       </div>
     </div>
