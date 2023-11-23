@@ -6,7 +6,7 @@ import Navigation from '../components/Navigation';
 
 const ContactPage = () => {
   return (
-    <div className=' overflow-x-hidden '>
+    <div className=' font-libre overflow-x-hidden '>
         <Navigation/>
  <div className="container mx-auto flex">
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className=" mt-auto mb-0  pt-8 font-libre">
+    <footer className=" mt-auto mb-0  pt-8 font-libre w-full ">
       <div className="container text-white mx-auto w-screen  bg-black flex flex-col md:flex-row">
         {/* Three parallel text sections */}
         <div className="mb-4 w-1/3 md:mb-0 md:mr-4 p-10">

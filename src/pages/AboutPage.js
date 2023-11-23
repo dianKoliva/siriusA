@@ -3,6 +3,7 @@ import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 import col2 from "../images/col2.jpg"
 
+
 const AboutPage = () => {
   return (
     <div className=' overflow-x-hidden'>
@@ -23,14 +24,11 @@ const AboutPage = () => {
         <p className='mt-4 text-[#676666] leading-8'>Our mission is to champion economic independence, honor cultural heritage, and promote gender equality by empowering women in the African handmade jewelry industry as both skilled artisans and successful business owners.</p>
       </div>
       <div className=''>
-        <p className=' pl-28'>
-          
+        <p className=' pl-28  text-4xl  text-center px-20 font-bold mt-8'>
+          Our Prototype 
         </p>
-      <div className='flex'>
-      <img className='h-[30em] pl-24 w-1/2' src={col2}/>
-       <img className='h-[30em] w-1/2  pr-28' src={col2}/>
-      </div>
      
+
 
       </div>
     </div>

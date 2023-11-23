@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import React from 'react';
 import Main from './pages/Main';
 import AboutPage from './pages/AboutPage';
-// import ContactPage from "./pages/ContactPage";
+import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
 
 
@@ -17,6 +17,7 @@ const App = () => {
     <Route path='/' element={<Main/>} />
     <Route path='about' element={<AboutPage/>} />
     <Route path='elab' element={<BlogPage/>} />
+    <Route path='contact' element={<ContactPage/>} />
   
   </Routes>
   </Router>

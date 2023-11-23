@@ -5,7 +5,7 @@ import logo from "../images/logo.png"
 
 const Navigation = () => {
   return (
-    <nav className="bg-transparent  top-0 w-full font-libre">
+    <nav className="bg-transparent  font-libre top-0 w-full ">
       <div className="container mx-auto flex justify-between items-center">
         <div>
           <img src={logo} alt="Logo" className="  h-20" />
@@ -26,7 +26,7 @@ const Navigation = () => {
           </div>
           
           <div>
-          <Link to="" smooth={true} duration={500} className="nav-link ">Contact us</Link>
+          <Link to="/contact" smooth={true} duration={500} className="nav-link ">Contact us</Link>
           </div>
           
         </div>

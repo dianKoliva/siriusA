@@ -11,7 +11,7 @@ const HomepageSection2 = () => {
         <h2 className="text-3xl font-bold mb-4">About Us</h2>
         <p className='mt-2'>Empowering Ethiopian women in the jewelry industry by fostering economic independence, celebrating cultural heritage, and advancing gender equality. Through skill development, access to resources, and sustainable practices, we support these women as skilled artisans and entrepreneurs. We aim to showcase their unique creations globally, contributing to a thriving and inclusive industry that reflects the richness of Ethiopian culture.</p>
         <Link to="/about">
-        <button className=' focus:outline-none py-2 mt-8 rounded-md px-12 bg-[#F5AB12]'>Find more</button>
+        <button className=' focus:outline-none py-2 mt-8 rounded-md px-12 bg-[#F5AB12]'>Read more</button>
         </Link>
         
       </div>
